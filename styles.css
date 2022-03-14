@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poopins', sans-serif;
+}
+
+.flex-container {
+  /* flex-direction: column; */
+  /* height: 400px; */
+  display: flex;
+  background-color: #f4f4f4;
+  /* justify-content: flex-start; */
+  /* align-items: flex-start; */
+  /* flex-wrap: wrap; */
+}
+
+.item {
+  flex: 1;
+  height: 100px;
+  background: #254de4;
+  color: #fff;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item:nth-of-type(1) {
+
+}
+
+.item:nth-of-type(2) {
+
+}
+
+.item:nth-of-type(3) {
+
+}
